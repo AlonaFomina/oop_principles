@@ -106,5 +106,10 @@ public class PersonTest {
             System.out.println(person);
 
         }
+
+        tester1.code();
+        dancer2.dance();
+        singer1.sings();
+
     }
 }
