@@ -10,5 +10,6 @@ public class Singer extends Person {
     public Singer(String fName, String lName, int age, String gender) {
         super(fName, lName, age, gender);
     }
+
 }
 
