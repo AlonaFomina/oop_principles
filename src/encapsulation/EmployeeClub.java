@@ -2,7 +2,7 @@ package encapsulation;
 
 import java.util.Scanner;
 
-public class EmployeeClub {
+public class EmployeeClub  {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
         Employee emp = new Employee();
