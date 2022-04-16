@@ -8,6 +8,24 @@ public class Tester extends  Person{
         super(fName, lName, age, gender);
     }
     public  void code(){
-        System.out.println("tester codes");
+        System.out.println("Tester codes");
+    }
+    @Override
+    public void eat(){
+        System.out.println("Tester eats");
+    }
+
+    @Override
+    public void learn() {
+        System.out.println("Tester learns");
+    }
+
+    @Override
+    public void walk() {
+        System.out.println("Tester walks");
+    }
+    @Override
+    public void sleep(){
+        System.out.println("Tester sleeps");
     }
 }
