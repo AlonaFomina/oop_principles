@@ -25,6 +25,7 @@ public class TestAbstraction {
             if(phone.price > max){
                 mostExpensive = phone;
                 System.out.println(mostExpensive.getClass().getSimpleName());
+                System.out.println(mostExpensive.colour);
             }
             if(phone.isConvertible()) c++;
         }
