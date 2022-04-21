@@ -10,6 +10,7 @@ public abstract class Phone {
     public abstract void text();
     public abstract boolean isConvertible();
 
+
     public String brand;
     public String colour;
     public int storage;

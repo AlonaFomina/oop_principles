@@ -41,5 +41,6 @@ public class TestAbstraction {
             phone.text();
 
         }
+        System.out.println(s1.isConnected());
     }
 }
